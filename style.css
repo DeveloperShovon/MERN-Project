@@ -89,3 +89,143 @@
 .hero-ing img{
     width: 24rem;
 }
+
+/* Why Section */
+
+.why 
+{
+    display: flex;
+    padding: 100px 50px  50px;
+    background-color: #F2FCFF;
+    justify-content: space-around;
+}
+.why-R 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.why-L
+{
+margin-top: 150px;
+}
+.why-L h1 
+{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.why-L p 
+{
+    font-family: sans-serif;
+    padding-top: 35px;
+    color: #8B8C8C;
+}
+
+.why-R{}
+.card 
+{
+    padding: 50px 40px;
+    background-color: white;
+    margin: 15px;
+}
+.card i{}
+.card h2 {
+    color: #424a5b;
+    /* padding-left: 10px; */
+}
+.card p {
+    padding-top: 12px;
+    color: #8B8C8C;
+    
+}
+
+/* achievement- Section */
+
+.achievement
+{
+
+    background: url('./image/BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.S-hadding {
+    text-align: center;
+    padding: 30px 0px;
+}
+.S-hadding h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+.S-hadding p {
+    padding-top: 10px;
+    color: white;
+    font-family: auto;
+}
+.counting {
+    display: flex;
+    justify-content: space-evenly;
+}
+.count {
+    padding: 40px 0px;
+}
+.count h1 {
+    color: white;
+    font-size: 45px;
+}
+.count p {
+    color: white;
+    font-family: auto;
+    font-size: 16px;
+}
+
+/* Complex */
+
+.Complex {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px 0px 0px;
+}
+.C-L{}
+.C-L h1 {
+    font-size: 40px;
+    color: ##2D2F30;
+    padding: 25px 0px;
+}
+.C-L p {
+    padding-bottom: 22px;
+    color: #8B8C8C;
+}
+.C-L a {
+    text-decoration: none;
+    padding: 14px 25px;
+    background: #0F6E8C;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.C-L a i{}
+.C-R{}
+.C-R img {
+    width: 400px;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.F-L{}
+.F-L img{}
+.F-R{
+    display: flex;
+}
+.buttone{
+    
+}
+.buttone h1{}
+.buttone h2{}
