@@ -218,14 +218,42 @@ margin-top: 150px;
 .footer {
     display: flex;
     justify-content: space-around;
+    padding: 50px 0px;
+    background-color: #0F6E8C;
 }
 .F-L{}
-.F-L img{}
+.F-L img {
+    height: 50px;
+}
 .F-R{
     display: flex;
 }
-.buttone{
-    
+.buttone {
+    color: white;
+    margin: 0px 50px;
 }
-.buttone h1{}
-.buttone h2{}
+.buttone h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+.buttone h2 {
+    font-size: 16px;
+    font-weight: unset;
+    font-family: serif;
+    padding: 10px 0px;
+    color: #ffffffb8;
+}
+.reserved {
+    padding: 10px 0px;
+    background: #294a67;
+    color: #ffffffd4;
+    margin-left: 0px;
+    padding-left: 200px;
+}
+.reserved h4{}
+.reserved h4 p {
+    display: inline-block;
+    color: #aad3ff;
+}
